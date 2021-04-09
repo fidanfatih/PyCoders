@@ -1,0 +1,93 @@
+**Asagidaki sorulardan SQL ve Python ile cozulmesini istediklerimizin cozumlerini (komut veya kodlarini) ustte sorusu altta cozumu olacak sekilde bir dosyaya yapistirip gondermenizi istiyoruz.**
+
+1- 'pycoders' isimli bir server kurun. (Manuel)
+
+2- 'class4' database olusturun (Manuel). Database silin (Manuel). Ayni database yine olusturun (SQL)
+
+CREATE DATABASE class4
+    WITH 
+    OWNER = postgres
+    ENCODING = 'UTF8'
+    CONNECTION LIMIT = -1;
+
+3- https://www.postgresqltutorial.com/postgresql-sample-database/ adresine gidin ve ER modeli inceleyin. Tablolar arasindaki en az 5 iliskiyi yazin.(Hangi tablolar arasinda ne tur bir iliski var)
+
+4- ER modeldeki tablolardan 3 tanesini Manuel olusturun.
+
+5- ER modeldeki tablolardan 3 tanesini SQL olusturun.
+
+6- ER modeldeki tablolardan 3 tanesini Python olusturun.
+
+(4-5-6. sorulari cozerken toblolar arasindaki iliskileri gozardi edebilirsiniz. TuManuel kolonlari girmeSQL zorunda degilsiniz, en az 2 kolon olmasi yeterli.)
+
+7- Olusturdugunuz 3 tabloya Manuel ile 5 veri girisi yapin.
+
+8- Olusturdugunuz 3 tabloya SQL ile 5 veri girisi yapin.
+
+9- Olusturdugunuz 3 tabloya Python ile 5 veri girisi yapin.
+
+10- 3 tablodaki birer veriyi Manuel ile degistirin.
+
+11- 3 tablodaki birer veriyi SQL ile degistirin.
+
+12- 3 tablodaki birer veriyi Python ile degistirin.
+
+13- 3 tablonun son satirini Manuel ile silin.
+
+14- 3 tablonun son satirini SQL ile silin.
+
+15- 3 tablonun son satirini Python ile silin.
+
+16- 1 tabloyu Manuel ile silin.
+
+17- 1 tabloyu SQL ile silin.
+
+18- 1 tabloyu Python ile silin.
+
+19- Kalan tablolardan 1 tanesinin 2 veya 3 sutununu SQL ile baska bir tablo olaraSQL olusturun.
+
+20- Kalan tablolardan 1 tanesinin 2 veya 3 sutununu Python ile baska bir tablo olaraSQL olusturun.
+
+21- Tablolardan 1 tanesini Manuel ile truncate edin.
+
+22- Tablolardan 1 tanesini SQL ile truncate edin.
+
+23- Tablolardan 1 tanesini Python ile truncate edin.
+
+24- Truncate edilmis tablolari Manuel ile silin.
+
+25- 2 tabloyu SQL ile silin.
+
+26- 2 tabloyu Python ile silin.
+
+27- Elimizde veri olan 1 tablo kalmis olmasi lazim. Bu tabloyu csv olaraSQL bilgisayariniza yukleyin.
+
+28- Postgresql arayuzundeki son tabloyu da SQL ile silin.
+
+29- Bilgisayarinizdaki csv yi arayuze import edin.
+
+30- Import ettiginiz bu tabloyu Python ile silin.
+
+31- https://www.postgresqltutorial.com/postgresql-sample-database/ linkindeki orneSQL DB yi bilgisayariniza indirin ve arayuze yukleyin.
+
+32- DB nizde 15 adet tablo olmasi lazim. Her tabloyu teker teker goruntuleyin ve kolon isimlerine bakarak, 5 tabloda hangi kolonun PSQL ve FSQL oldugunu yazin.
+
+Sorgular? (Asagidaki sorularin cevaplarini ve bu cevabi bulurken kullandiginiz kodlari yazin)
+
+33- Action filmlerinin ortalama suresi ne kadar?
+
+34- En coSQL staff olan store hangisidir?
+
+35- 'Gene Willis' adli actorun oynadigi filmlerin ratingi nedir?
+
+36- Aktif customer sayisi nedir?
+
+37- 'C' harfiyle baslayan filmler hangileridir?
+
+38- 4$ den az odeme yapan musterilerin e-mail edresleri nedir?
+
+39- Moscow'da ikamet eden staff ve customer tablosu? (sadece isim/soyisiManuel sutunu olsun)
+
+40- En az kiralanan 5 filManuel hangisidir?
+
+41- 2006 yilinda yayinlanan ingilizce filmler hangileridir?
